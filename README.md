@@ -1,7 +1,7 @@
 # Face Recognition Project
 
 ## Overview
-This project is a facial recognition system developed using MATLAB, designed to identify and differentiate between multiple individuals based on their facial features. The system combines the probabilities of three neural networks—DenseNet-201, ResNet-50, and DarkNet-53—to leverage their strengths and compensate for individual weaknesses. This ensemble approach achieves an accuracy of 87%.
+This project is a facial recognition system developed using MATLAB, designed to identify and differentiate between multiple individuals based on their facial features. The system combines the probabilities of three neural networks DenseNet-201, ResNet-50, and DarkNet-53—to leverage their strengths and compensate for individual weaknesses. This ensemble approach achieves an accuracy of 87%.
 
 ## Features
 - **Multi-Network Architecture:** Utilizes DenseNet-201, ResNet-50, and DarkNet-53 for robust recognition.
