@@ -68,5 +68,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 For questions or further information, please contact:
 - **Shaima Derouich**
 - GitHub: [shm0m](https://github.com/shm0m)
-- Email: [Your Email Here]
+- Email: shaimaderouich18@gmail.com
 
