@@ -1,7 +1,7 @@
 # Face Recognition Project
 
 ## Overview
-This project is a facial recognition system developed using MATLAB, designed to identify and differentiate between multiple individuals based on their facial features. The system combines the probabilities of three neural networks DenseNet-201, ResNet-50, and DarkNet-53—to leverage their strengths and compensate for individual weaknesses. This ensemble approach achieves an accuracy of 87%.
+This project is a facial recognition system developed using MATLAB, designed to identify and differentiate between multiple individuals based on their facial features. The system combines the probabilities of three neural networks DenseNet-201, ResNet-50, and DarkNet-53—to leverage their strengths and compensate for individual weaknesses. This ensemble approach achieves an accuracy of 94%.
 
 ## Features
 - **Multi-Network Architecture:** Utilizes DenseNet-201, ResNet-50, and DarkNet-53 for robust recognition.
@@ -20,9 +20,8 @@ This project is a facial recognition system developed using MATLAB, designed to 
 
 ### Files Included
 1. `all3Networks.mat` - Contains the three trained neural networks.
-2. `network1.mat`, `network2.mat`, `network3.mat` - Individual files for each neural network.
-3. `faceRecognitionScript.m` - The main script for running the facial recognition process.
-4. Sample images and data for testing the recognition system.
+2. `demoRecognitionRateDeep.m` - The main script for running the facial recognition process.
+3. Sample images and data for testing the recognition system.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -35,16 +34,9 @@ This project is a facial recognition system developed using MATLAB, designed to 
    cd Face-ID
    ```
 
-3. Open MATLAB or Octave and load the neural network files:
+3. Run the main script:
    ```matlab
-   load('network1.mat');
-   load('network2.mat');
-   load('network3.mat');
-   ```
-
-4. Run the main script:
-   ```matlab
-   run('faceRecognitionScript.m');
+   run('demoRecognitionRateDeep.m');
    ```
 
 ## How It Works
